@@ -18,7 +18,7 @@ export default function NewsCard(props){
       url: 'https://api.newscatcherapi.com/v2/search',
       params: { q: `${props.q}`, lang: 'en', sort_by: 'relevancy', page: `${page}`, page_size: '20' },
       headers: {
-        'x-api-key': 'j7t97skkyVvjaZ0oi0lrT30jegmIjZx09k9JbAbXxho'
+        'x-api-key': 'lbQgr8KpwmV6mzB-yRtGn9KQl3RgSOx5mNfNX77bVSM'
       }
     };
     axios.request(options).then((response)=> {
